@@ -1,31 +1,73 @@
 aid: lightstep
 name: Lightstep
 description: >-
-  Lightstep (now ServiceNow Cloud Observability) is a distributed tracing and observability platform for analyzing microservice performance.
+  Lightstep, now ServiceNow Cloud Observability, is a distributed tracing and
+  observability platform that helps teams monitor, debug, and optimize
+  microservice performance. It provides deep visibility into distributed systems
+  using OpenTelemetry-based tracing, metrics, and service health monitoring.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - API Analysis
   - Observability
+  - Distributed Tracing
+  - APM
+  - Monitoring
+  - OpenTelemetry
+  - Microservices
 url: >-
   https://raw.githubusercontent.com/api-evangelist/lightstep/refs/heads/main/apis.yml
 created: '2026-03-26'
 modified: '2026-03-26'
 specificationVersion: '0.19'
 apis:
-  - aid: lightstep:lightstep
-    name: Lightstep
+  - aid: lightstep:lightstep-api
+    name: Lightstep API
     description: >-
-      Lightstep (now ServiceNow Cloud Observability) is a distributed tracing and observability platform for analyzing microservice performance.
-    humanURL: https://lightstep.com
+      The Lightstep API provides programmatic access to observability data
+      including traces, spans, streams, dashboards, alerting conditions, and
+      service health. It enables teams to manage their observability
+      configuration and query telemetry data programmatically.
+    humanURL: https://docs.lightstep.com/docs/lightstep-api-overview
     tags:
-      - API Analysis
+      - Observability
+      - Distributed Tracing
+      - APM
+      - Monitoring
+      - Telemetry
     properties:
       - type: Documentation
-        url: https://docs.lightstep.com
+        url: https://docs.lightstep.com/docs/lightstep-api-overview
+      - type: OpenAPI
+        url: https://docs.lightstep.com/openapi
+      - type: GettingStarted
+        url: https://docs.lightstep.com/docs/welcome-to-lightstep
+      - type: Authentication
+        url: https://docs.lightstep.com/docs/create-and-manage-api-keys
 common:
   - type: Website
     url: https://lightstep.com
+  - type: Documentation
+    url: https://docs.lightstep.com
+  - type: Blog
+    url: https://lightstep.com/blog
+  - type: Pricing
+    url: https://lightstep.com/pricing
+  - type: Login
+    url: https://app.lightstep.com
+  - type: Signup
+    url: https://app.lightstep.com/signup
+  - type: Support
+    url: https://lightstep.com/support
+  - type: GitHub
+    url: https://github.com/lightstep
+  - type: Twitter
+    url: https://twitter.com/lighabortstepHQ
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/lightstep
+  - type: StatusPage
+    url: https://status.lightstep.com
+  - type: OpenTelemetry
+    url: https://docs.lightstep.com/docs/opentelemetry
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
