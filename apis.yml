@@ -8,12 +8,12 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Observability
-  - Distributed Tracing
   - APM
-  - Monitoring
-  - OpenTelemetry
+  - Distributed Tracing
   - Microservices
+  - Monitoring
+  - Observability
+  - OpenTelemetry
 url: >-
   https://raw.githubusercontent.com/api-evangelist/lightstep/refs/heads/main/apis.yml
 created: '2026-03-26'
@@ -29,10 +29,10 @@ apis:
       configuration and query telemetry data programmatically.
     humanURL: https://docs.lightstep.com/docs/lightstep-api-overview
     tags:
-      - Observability
-      - Distributed Tracing
       - APM
+      - Distributed Tracing
       - Monitoring
+      - Observability
       - Telemetry
     properties:
       - type: Documentation
