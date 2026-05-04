@@ -1,0 +1,29 @@
+specification: API Commons Rate Limits
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/RateLimits
+provider: Lightstep
+providerId: lightstep
+created: '2026-05-04'
+modified: '2026-05-04'
+reconciled: true
+tags:
+  - Rate Limiting
+  - Observability
+description: Lightstep API rate limits per organization.
+sources:
+  - https://lightstep.com/
+  - https://www.servicenow.com/products/observability.html
+  - https://docs.lightstep.com/api/
+headers: {}
+responseCodes:
+  throttled: 429
+limits:
+  - name: Public API
+    scope: org
+    metric: requests_per_minute
+    limit: 600
+    timeFrame: minute
+  - name: Span ingest
+    scope: project
+    metric: spans_per_second
+    limit: scales with plan

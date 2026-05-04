@@ -1,0 +1,60 @@
+specification: API Commons Plans
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/Plans
+provider: Lightstep (ServiceNow Cloud Observability)
+providerId: lightstep
+created: '2026-05-04'
+modified: '2026-05-04'
+reconciled: true
+tags:
+  - Observability
+  - Tracing
+  - OpenTelemetry
+description: Lightstep is now ServiceNow Cloud Observability. Pricing is custom enterprise via ServiceNow
+  contracts.
+sources:
+  - https://lightstep.com/
+  - https://www.servicenow.com/products/observability.html
+plans:
+  - id: lightstep-community
+    name: Community
+    type: freemium
+    description: Free. Limited usage for evaluation.
+    entries:
+      - label: Per user
+        name: user
+        type: subscription
+        metric: month
+        limit: -1
+        timeFrame: month
+        geo: global
+        unit: 1
+        price: '0.00'
+        userMultiplied: false
+    elements:
+      - name: Limited spans/month
+      - name: Distributed tracing
+      - name: OpenTelemetry support
+      - name: Single environment
+  - id: lightstep-enterprise
+    name: Enterprise (ServiceNow)
+    type: enterprise
+    description: Custom pricing through ServiceNow Cloud Observability contracts.
+    entries:
+      - label: Annual (custom)
+        name: annual
+        type: subscription
+        metric: year
+        limit: -1
+        timeFrame: year
+        geo: global
+        unit: 1
+        price: custom
+        userMultiplied: false
+    elements:
+      - name: Unlimited spans
+      - name: Service maps
+      - name: Anomaly detection
+      - name: Notebooks
+      - name: ServiceNow integration
+      - name: Dedicated CSM
