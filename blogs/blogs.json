@@ -1,0 +1,13 @@
+{
+  "repo": "lightstep",
+  "feeds": [
+    {
+      "source": "https://lightstep.com/blog",
+      "feed_url": "https://www.servicenow.com/community/s/cgfwn76974/rss/Category?category.id=cloud-observability&interaction.style=forum",
+      "saved": 10,
+      "title": "New board topics in Cloud Observability"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:30:35Z"
+}
