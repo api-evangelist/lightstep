@@ -49,7 +49,7 @@ common:
     url: https://lightstep.com/pricing
   - type: Login
     url: https://app.lightstep.com
-  - type: SignUp
+  - type: Signup
     url: https://app.lightstep.com/signup
   - type: Support
     url: https://lightstep.com/support
