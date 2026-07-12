@@ -39,6 +39,8 @@ apis:
       - type: Authentication
         url: https://docs.lightstep.com/docs/create-and-manage-api-keys
 common:
+  - type: DomainSecurity
+    url: security/lightstep-domain-security.yml
   - type: Website
     url: https://lightstep.com
   - type: Documentation
