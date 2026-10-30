@@ -1,4 +1,4 @@
-# Lightstep (lightstep)
+# Lightstep
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,66 +66,104 @@
 
 Lightstep, now ServiceNow Cloud Observability, is a distributed tracing and observability platform that helps teams monitor, debug, and optimize microservice performance. It provides deep visibility into distributed systems using OpenTelemetry-based tracing, metrics, and service health monitoring.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/lightstep/refs/heads/main/apis.yml)
+**Areas:** APM · Distributed Tracing · Microservices · Monitoring · Observability · OpenTelemetry
 
-## Scope
+## Lightstep on APIs.io
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for Lightstep is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lightstep/](https://apis.io/providers/lightstep/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (1)
 
-- APM
-- Distributed Tracing
-- Microservices
-- Monitoring
-- Observability
-- OpenTelemetry
+- [Lightstep API](https://apis.io/apis/lightstep/lightstep-api/) — The Lightstep API provides programmatic access to observability data including traces, spans, streams, dashboards, alerting conditions, and service health.…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-26
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### Lightstep API
-The Lightstep API (now Cloud Observability API) provides programmatic access to observability data including traces, spans, streams, dashboards, alerting conditions, and service health. It enables teams to manage their observability configuration and query telemetry data programmatically.
+Authentication, trust centre, and vulnerability disclosure.
 
-**Human URL:** [https://docs.lightstep.com/docs/lightstep-api-overview](https://docs.lightstep.com/docs/lightstep-api-overview)
+- [Lightstep Domain Security](https://apis.io/security/lightstep/lightstep-domain-security/)
 
-#### Tags
+#### Plans and pricing (1)
 
-- APM
-- Distributed Tracing
-- Monitoring
-- Observability
-- Telemetry
+Published plans, tiers and prices.
 
-#### Properties
+- [Lightstep Plans Pricing](https://apis.io/plans/lightstep/lightstep-plans-pricing/)
 
-- [Documentation](https://docs.lightstep.com/docs/lightstep-api-overview)
-- [OpenAPI](https://docs.lightstep.com/openapi)
-- [GettingStarted](https://docs.lightstep.com/docs/welcome-to-lightstep)
-- [Authentication](https://docs.lightstep.com/docs/create-and-manage-api-keys)
+#### Rate limits (1)
 
-## Common Properties
+Published request limits.
+
+- [Lightstep Rate Limits](https://apis.io/rate-limits/lightstep/lightstep-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Lightstep Finops](https://apis.io/finops/lightstep/lightstep-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://lightstep.com)
 - [Documentation](https://docs.lightstep.com)
-- [Blog](https://lightstep.com/blog)
 - [Pricing](https://lightstep.com/pricing)
-- [Login](https://app.lightstep.com)
-- [Signup](https://app.lightstep.com/signup)
 - [Support](https://lightstep.com/support)
-- [GitHub](https://github.com/lightstep)
-- [LinkedIn](https://www.linkedin.com/company/lightstep)
-- [StatusPage](https://status.lightstep.com)
-- [OpenTelemetry](https://docs.lightstep.com/docs/opentelemetry)
+- [Blog](https://lightstep.com/blog)
+- [Status](https://status.lightstep.com)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 26.3** — thin · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 24.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 22.4 |
+
+**Agent readiness 16.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lightstep/](https://apis.io/providers/lightstep/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lightstep: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lightstep/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
